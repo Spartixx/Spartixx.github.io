@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300&display=swap');
+body{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(27, 26, 26);
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body .page{
+    margin: 20px 80px;
+}
+
+/* Barre de navigyation*/
+
+nav{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+position: sticky;
+top: 0;
+background-color: rgb(20, 19, 19);
+padding: 60px 90px;
+}
+
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    font-size: 20pt;
+}
+
+nav .onglets a{
+    margin-right: 27px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+nav .onglets b{
+    margin-right: 27px;
+    margin-left: 350px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 30pt;
+}
+
+nav .buttons button{
+    padding: 13px 20px;
+    color: white;
+    border: none;
+    background-color: royalblue;
+    font-size: 15pt;
+    cursor: pointer;
+    outline: none;
+}
+
+nav .buttons .login{
+    background-color: royalblue;
+    margin-right: 10px;
+
+}
+
+nav .buttons .pub{
+    background-color: #22DF16;
+    margin-right: 10px;
+    margin-left: 55px;
+
+}
+/* Barre de navigyation FIN*/
+
+/* Partie Header*/
+
+header{
+    margin-top: 80px;
+    background: url('https://lh3.googleusercontent.com/proxy/PJ0zrltsZl2h6KpoY7E_d1oblQKufEoFFulrffTTb9ib0CxxOP-Nn3Q39EIqO2uRfhrTq8v0hAeEQPfsFMSemlRWBdfXO6-zAT2dT3ZRBg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 385px;
+}
+
+header h1{
+    margin-left: 1px;
+    margin-top: 30px;
+    font-size: 60px;
+    padding: 150px;
+}
+
+/* Partie Header*/
+
+/* Pied de Page*/
+
+footer{
+    background-color: #292828;
+    padding: 60px;
+    color: #828282;
+}
+
+footer .title{
+    margin-left: 146px;
+    font-size: 20px;
+}
+
+footer .colonnes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer p{
+    margin-left: 146px;
+}
+/*Fun du Pied de Page */
