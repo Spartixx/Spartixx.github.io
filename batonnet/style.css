@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.header-background {
+  border: solid #054149;
+  height: 7rem;
+  background: linear-gradient(#24afaf, #2fa7e8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.header-background h1 {
+  text-align: center;
+  color: white;
+  font-family: "Arial Black";
+  font-size: xxx-large;
+}
+
+.explanation-div {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.explanation-div div {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border: solid #054149;
+  border-radius: 15px;
+  width: 100%;
+  background: linear-gradient(#51dac1, #027a68);
+}
+.explanation-div div h1 {
+  text-align: center;
+  font-family: "Arial Black";
+  font-size: x-large;
+  color: white;
+}
+.explanation-div button {
+  border: solid #054149;
+  justify-content: center;
+  width: 20%;
+  height: 100%;
+  border-radius: 15px;
+  background: linear-gradient(#51dac1, #027a68);
+  font-family: "Arial Black";
+  font-size: large;
+  color: white;
+}
+.explanation-div button:hover {
+  opacity: 0.8;
+}
+
+.game {
+  border: solid #054149;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border-radius: 15px;
+  flex: 1;
+  background: linear-gradient(#24afaf, #2fa7e8);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+.game input {
+  height: 2rem;
+  border-radius: 12px 12px 0 0;
+  text-align: center;
+  border-color: transparent;
+  font-size: large;
+}
+.game .images-div {
+  height: 100%;
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.game .images-div .img_div {
+  height: 100%;
+  width: 10px;
+  background: linear-gradient(#a2eadd, #4b9388);
+  border: solid white 5px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

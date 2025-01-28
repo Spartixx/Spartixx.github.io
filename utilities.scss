@@ -1,0 +1,58 @@
+.utilities-div{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem 0 2rem;
+
+
+  .utilities-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10rem;
+    flex-wrap: wrap;
+
+
+    .utility-category{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      list-style-type: circle;
+      column-gap: 10rem;
+      padding: 0;
+
+      h2{
+        padding: 0.7rem;
+      }
+
+      li{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        list-style: circle !important;
+
+
+        h2{
+          text-align: start;
+          color: white;
+          font-family: "Arial Black";
+        }
+
+        img{
+          width: 2rem;
+          height: 2rem;
+          padding-left: 1rem;
+          transition-duration: 0.25s;
+          transform: scale(1);
+
+          &:hover{
+            transition-duration: 0.25s;
+            transform: scale(1.3);
+          }
+        }
+      }
+    }
+  }
+}
+

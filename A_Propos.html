@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>A Propos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilities.css">
+</head>
+<body>
+
+    <header>
+
+        <nav class="menu">
+            <ul>
+                <li >
+                    <a class="item-menu" id="1" href="Accueil.html">Accueil</a>
+                </li>
+
+                <li id="item-title">
+                    <h1 >Nicolas Macrez</h1>
+                </li>
+
+                <li >
+                    <a href="#faq-div" id="faq-btn" class="item-menu">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="container">
+
+        <div class="new-container">
+
+            <div class="moi">
+                <h1>A propos de moi :</h1>
+            </div>
+
+            <div class="description-moi">
+                <h2>Bienvenue sur mon Portfollio. Je m'appelle Nicolas Macrez et je suis etudiant en informatique au sein de l’école IT de Valenciennes en vue d’un Master en Intelligence Artificielle.</h2>
+            </div>
+
+            <div>
+                <h2 class="description-moi set-full-border-radius">Passionné depuis le collège par la programmation, j'ai eu l'occasion de mener à bien plusieurs projets dont certains sont disponibles sur mon Portfollio.</h2>
+            </div>
+
+            <div>
+                <h2 class="description-moi set-full-border-radius">Je suis actuellement en recherche de stage, si mon profil vous intéresse, vous pouvez me contacter depuis le formulaire de contact.</h2>
+            </div>
+
+
+        </div>
+
+
+        <div class="faq" id="faq-div">
+
+            <form action="contact.php" method="post">
+                <ul>
+                    <li class="faq-category">
+                        <div class = "contact-container">
+                            <img src="ressources/mail.png" alt="outils">
+                            <input type="text" name="mail-input" id="mail-input" placeholder="Entrez votre e-mail">
+                        </div>
+                    </li>
+
+                    <li class="faq-category">
+                        <div class = "contact-container">
+                            <img src="ressources/userIcon.png" alt="outils">
+                            <input type="text" name="name-input" id="name-input" placeholder="Entrez votre nom">
+                        </div>
+                    </li>
+
+                    <li class="faq-category">
+                        <div class = "contact-container">
+                            <img src="ressources/userIcon.png" alt="outils">
+                            <input type="text" name="firstname-input" id="firstname-input" placeholder="Entrez votre prénom">
+                        </div>
+                    </li>
+
+                    <li class="faq-category" id="subject-id">
+                        <div class = "contact-container" id="subject-container">
+                            <img src="ressources/messageIcon.png" alt="outils">
+                            <input type="text" name="subject-input" id="subject-input" placeholder="Entrez l'objet">
+                        </div>
+                    </li>
+
+                    <li class="faq-category" id="message-id">
+                        <div class = "contact-container" id="message-container">
+                            <img src="ressources/messageIcon.png" alt="outils">
+                            <textarea name="message-input" id="message-input" placeholder="Entrez votre message" cols="20" rows="7"></textarea>
+                        </div>
+                    </li>
+
+                    <li class="faq-category">
+                        <div class = "contact-container">
+                            <button name = "submit-contact" type="submit" id = "send-button-contact">Envoyer</button>
+                        </div>
+                    </li>
+                </ul>
+            </form>
+        </div>
+
+    </div>
+
+    <div class = "utilities-div">
+
+        <h2 class="actu-title">Mes compétences</h2>
+
+        <div class="utilities-content">
+
+            <nav>
+                <ul class = "utility-category">
+                    <h2 class="actu-title subtitle" style="width: 100%">Logiciels</h2>
+                    <li class = "">
+                        <h2>Blender (3D,2D)</h2>
+                        <img src="ressources/blenderLogo.png" alt="Etat">
+                    </li>
+
+                    <li class = "">
+
+                        <h2>Krita (2D)</h2>
+                        <img src="ressources/kritaLogo.png" alt="Etat">
+                    </li>
+
+                    <li class = "">
+                        <h2>Unity</h2>
+                        <img src="ressources/unityLogo.png" alt="Etat">
+                    </li>
+
+                    <li class = "">
+
+                        <h2>Figma</h2>
+                        <img src="ressources/figmaLogo.png" alt="Etat">
+                    </li>
+
+                    <li class = "">
+
+                        <h2>Pack Office</h2>
+                        <img src="ressources/officeLogo.png" alt="Etat">
+                    </li>
+
+                </ul>
+            </nav>
+
+            <nav>
+                <ul class = "utility-category">
+                    <h2 class="actu-title subtitle" style="width: 100%">Développement Web</h2>
+
+                    <li class = "">
+                        <h2>HTML</h2>
+                        <img src="ressources/htmlLogo.png" alt="Etat">
+                    </li>
+
+                    <li class = "">
+                        <h2>CSS</h2>
+                        <img src="ressources/cssLogo.png" alt="Etat">
+                    </li>
+
+                    <li class = "">
+
+                        <h2>PHP</h2>
+                        <img src="ressources/phpLogo.png" alt="Etat">
+                    </li>
+
+                    <li class = "">
+                        <h2>JavaScript</h2>
+                        <img src="ressources/jsLogo.png" alt="Etat">
+                    </li>
+
+                    <li class = "">
+                        <h2>BootStrap</h2>
+                        <img src="ressources/bootStrapLogo.png" alt="Etat">
+                    </li>
+
+                </ul>
+            </nav>
+
+            <nav>
+                <ul class = "utility-category">
+                    <h2 class="actu-title subtitle" style="width: 100%">Base de Données</h2>
+
+                    <li class = "">
+                        <h2>MySQL</h2>
+                        <img src="ressources/mySqlLogo.png" alt="Etat">
+                    </li>
+
+                    <li class = "">
+                        <h2>SQLITE</h2>
+                        <img src="ressources/sqliteLogo.png" alt="Etat">
+                    </li>
+
+                </ul>
+
+                <nav>
+                    <ul class = "utility-category">
+                        <h2 class="actu-title subtitle" style="width: 100%">Autres Langages :</h2>
+
+                        <li class = "">
+                            <h2>Python</h2>
+                            <img src="ressources/pythonLogo.png" alt="Etat">
+                        </li>
+
+                        <li class = "">
+                            <h2>C#</h2>
+                            <img src="ressources/CSharpLogo.png" alt="Etat">
+                        </li>
+
+                    </ul>
+                </nav>
+            </nav>
+
+
+
+        </div>
+    </div>
+
+
+
+
+   <script src="main.js"></script>
+</body>
+</html>
